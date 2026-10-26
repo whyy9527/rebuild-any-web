@@ -1,0 +1,34 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+node_modules/
+dist/
+build/
+.build/
+private/
+artifacts/
+# Local browser QA captures and logs
+/.playwright-cli/
+/output/playwright/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.safetensors
+*.gguf
+
+# Per-project generated local registration and task state
+.codex/config.toml
+.codex/hooks.json
+.codex/exploration-lab/
+
+# Local rebuild stage state (no runtime state in Git)
+.codex/rebuild/
